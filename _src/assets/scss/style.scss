@@ -1,0 +1,25 @@
+@import 'mixin';
+@import 'fonts';
+@import 'variables';
+
+$color : red;
+
+span {
+    font-size: 15px;
+    color: $color;
+    display: flex;
+    @media screen and (max-width: 720px) {
+        font-size: 11px;
+    }
+}
+
+body {
+    background-image: url(../img/image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-div {
+    padding: 20px;
+    background-color: aqua;
+}
