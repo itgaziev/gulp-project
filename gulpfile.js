@@ -17,11 +17,16 @@ const { src, dest } = require('gulp'),
 
 const fs = require('fs')
 
-const folder = {
-    project : require("path").basename(__dirname),
-    source : '_src'
-}
+// const folder = {
+//     project : require("path").basename(__dirname),
+//     source : '_src'
+// }
 
+//Upper folder
+const folder = {
+    project : '../build',
+    source: '../src'
+}
 
 const path = {
     build : {
